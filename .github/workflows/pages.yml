@@ -1,5 +1,12 @@
 name: Deploy to GitHub Pages
+sh_dir为根目录
+publish_dir: .
 
+# 保存并提交更改
+# git add .github/workflows/pages.yml
+# git commit -m "更新Pages部署配置"
+# git push github pages
+#
 on:
   push:
     branches:
